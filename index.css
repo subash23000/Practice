@@ -64,6 +64,7 @@ body{
 
 }
 
+
 .specials h2 {
     margin-bottom: 10px;
 }
@@ -79,6 +80,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     /* background-image:url(images/backgroud-photo1.jpg); */
+}
+main {
+    background-image: url(images/background-photo2.jpeg);
 }
 .footer {
     background-color: darkorange;
