@@ -3,119 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('http://staff.hamk.fi/~tsaksa/temp/background-image.jpg');
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            max-width: 1200px;
-            width: 100%;
-            background-color: rgba(255, 255, 255, 0.9);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin: 20px;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin: 0;
-        }
-
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #007BFF;
-            font-size: 1.2rem;
-        }
-
-        .main-content {
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            gap: 20px;
-        }
-
-        .content {
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-        }
-
-        .content button {
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1rem;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .sidebar img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-
-        footer {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px 0;
-            margin-top: 20px;
-            border-top: 1px solid #ddd;
-        }
-
-        footer div {
-            flex: 1;
-            padding: 0 10px;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Your Name</h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-        <div class="main-content">
-            <div class="content">
-                <h2>Welcome to the Content Area</h2>
-                <p>This is where you can add some information about your project, goals, or anything else you'd like to share.</p>
-                <button>Click Me</button>
+    <header>
+        <!-- <div class="header">
+            <img src="images/logo2.png" alt="">
+        </div> -->
+        <div class="nav">
+            <img src="images/logo2.png" alt="">
+            <a href="#" class="active">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="#">ORDER</a>
+            <a href="#">LOCATION</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <p class="quote">"Where every sip feels like home. <br> Come for the coffee, stay for the vibe!"</p>
+            <img src="images/coffee-sidebar.jpg" alt="A Coffee Cup" height="900">
+        </div>
+
+        <div class="content">
+            <h2>WELCOME TO HIMALAYAN CAFE</h2>
+            <p>
+                Himalayan cafe is a neighborhood cafe located on Asematie 1, Vantaa, serving locally-roasted coffee along with sandwiches, salads, fresh-squeezed juices, smoothies, and pastries. The lower garden district space has coffee shop standards like free Wifi and local art, but a few unexpected gems set it apart-beer, wine, Irish coffee, mimosas, and magazines/books.
+            </p>
+        </div>
+
+        <div class="specials">
+            <h2>A HIMALAYAN CAFE ORIGINAL</h2>
+            <p>A few of our winter favourites....</p>
+            <div class="specials-container">
+                <div class="dink1">
+                    <img src="images/COFFEE1.png" alt="Caramel Creme" height="500" width="500">
+                    <p>Caramel Creme</p>
+                </div>
+                <div class="drink2">
+                    <img src="images/COFFEE2.png" alt="Honey Oat Milk Latte" height="500" width="500">
+                    <p>Honey Oat Milk Latte</p>
+                </div>
+                <div class="drink3">
+                    <img src="images/COFFEE3.png" alt="Mocha Latte" height="500" width="500">
+                    <p>Mocha Latte</p>
+                </div>
+                <div class="drink4">
+                    <img src="images/COFFEE4.png" alt="Paralines &Cream Latte" height="500" width="500">
+                    <p>Paralines &Cream Latte</p>
+                </div>
             </div>
-            <div class="sidebar">
-                <img src="https://via.placeholder.com/300" alt="Sidebar Image">
+            <hr>
+            <div class="location">
+                <h1>LOCATIONS</h1>
+                <div class="location-container">
+                    <div class="details">
+                        <img src="images/coffee-locationn1.jpg" alt="">
+                        <h3>World Square</h3>
+                        <p>World Square</p>
+                        <p>395 Pitt St</p>
+                    </div>
+                    <div class="details">
+                        <img src="images/coffee-locationn1.jpg" alt="">
+                        <h3>World Square</h3>
+                        <p>World Square</p>
+                        <p>395 Pitt St</p>
+                    </div>
+    
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="container1">
+                <h1>Contact Us</h1>
+                <p>E-mail us at: <a href="mailto:himalayanCafe@gmail.com">himalayanCafe@gmail.com</a></p>
+                <p>Give us a call: <a href="tel:+3580123456789">+3580123456789</a></p>
+                <p>Give us a feedback</p>
+                <p><b>Place an order:</b></p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+
             </div>
         </div>
-        <footer>
-            <div>
-                <p>Column 1: Add some text here.</p>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="logo2">
+                <img src="images/logo2.png" alt="">
             </div>
             <div>
-                <p>Column 2: More text here.</p>
+                <strong>Hours</strong><br>M-F: 7AM - 2PM <br>S & S: 8AM - 2PM
             </div>
+    
             <div>
-                <p>Column 3: Final column text.</p>
+                <strong>CONTACT</strong>
+                <br><a href="tel:+3580123456789">+3580123456789</a><br> 
+                <a href="mailto:himalayanCafe@gmail.com">himalayanCafe@gmail.com</a>
             </div>
-        </footer>
-    </div>
+    
+            <div class="social-icons">
+                <strong>Follow:</strong>
+                <img src="images/instagram-logo.png" alt="Instagram">
+                <img src="images/facebook-logo.jpeg" alt="Facebook">
+                <img src="images/Twitter-logo.png" alt="Twitter">
+            </div>
+            
+        </div>
+    </footer>
+    
 </body>
 </html>
