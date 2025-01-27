@@ -284,3 +284,91 @@ footer .social-icons img {
 .feedback-btn:hover {
     background: #e76b00;
 }
+
+@media (max-width: 768px) {
+    /* For tablets and smaller screens */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .menu .drinks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .menu .drink {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    
+    .order form {
+        display: grid;
+        gap: 15px;
+    }
+
+    footer .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For small screens like mobile phones */
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    nav ul {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+    
+    .hero p {
+        font-size: 14px;
+    }
+    
+    .menu .drinks {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu .drink {
+        width: 100%;
+        text-align: center;
+    }
+
+    .order form {
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
