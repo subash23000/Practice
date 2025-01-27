@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Himalayan Cafe - Your neighborhood coffee spot. Sip, relax, and repeat with our locally-roasted coffee and cozy ambiance.">
+    <title>Himalayan Cafe</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo2.png" alt="Himalayan Cafe Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="#order">ORDER</a></li>
+                <li><a href="#locations">LOCATION</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#review">REVIEW</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>"Where every sip feels like home."</h1>
+        <p>Come for the coffee, stay for the vibe!</p>
+        <img src="images/coffee-sidebar.jpg" alt="Coffee cup">
+    </section>
+
+    <section class="welcome" id="about">
+        <h2>WELCOME TO HIMALAYAN CAFE</h2>
+        <p>Located at Asematie 1, Vantaa, we serve locally-roasted coffee, sandwiches, salads, and fresh pastries. Enjoy free WiFi, local art, and more!</p>
+    </section>
+
+    <section class="menu">
+        <h2>A HIMALAYAN CAFE ORIGINAL</h2>
+        <p>A few of our winter favorites...</p>
+        <div class="drinks">
+            <div class="drink">
+                <img src="images/COFFEE1.png" alt="Caramel Creme">
+                <h3>Caramel Creme</h3>
+            </div>
+            <div class="drink">
+                <img src="images/COFFEE2.png" alt="Honey Oat Milk Latte">
+                <h3>Honey Oat Milk Latte</h3>
+            </div>
+            <div class="drink">
+                <img src="images/COFFEE3.png" alt="Mocha Latte">
+                <h3>Mocha Latte</h3>
+            </div>
+            <div class="drink">
+                <img src="images/COFFEE4.png" alt="Paralines & Cream Latte">
+                <h3>Paralines & Cream Latte</h3>
+            </div>
+        </div>
+        <a href="menu.html" class="btn">See more Drinks</a>
+      
+
+    </section>
+
+    <section class="order" id="order">
+        <h2>Place Your Order</h2>
+        <p>Order your favorite drinks and pastries online and pick them up at your convenience!</p>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="items">Select Items:</label>
+                <select id="items" name="items">
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="espresso">Espresso</option>
+                    <option value="pastry">Pastry</option>
+                    <option value="sandwich">Sandwich</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Special Instructions:</label>
+                <textarea id="message" name="message" placeholder="Any special requests?"></textarea>
+            </div>
+    
+            <button type="submit" class="order-btn">Place Order</button>
+        </form>
+    </section>
+
+    <section class="locations" id="locations">
+        <h2>LOCATIONS</h2>
+        <div class="location">
+            <img src="images/coffee-locationn1.jpg" alt="Cafe Location">
+            <p>World Square, 395 Pitt St</p>
+        </div>
+        <div class="location">
+            <img src="images/coffee-locationn1.jpg" alt="Cafe Location">
+            <p>World Square, 395 Pitt St</p>
+        </div>
+    </section>
+
+    <section id="feedback" class="feedback">
+        <h2>We Value Your Feedback</h2>
+        <p>Let us know how we can improve your experience.</p>
+        
+        <form action="submit_feedback.php" method="post">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+    
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Feedback" required></textarea>
+            </div>
+    
+            <button type="submit" class="feedback-btn">Submit</button>
+        </form>
+    </section>
+    
+    <section class="reviews" id="review">
+        <h2>What Our Customers Say</h2>
+        <div class="review">
+            <p>"The best coffee I've ever had! The ambiance is perfect for work and leisure."</p>
+            <h4>- Jane Doe</h4>
+        </div>
+        <div class="review">
+            <p>"Friendly staff and delicious pastries. Highly recommended!"</p>
+            <h4>- John Smith</h4>
+        </div>
+        <div class="review">
+            <p>"I love their honey oat milk latte. Such a unique and tasty blend!"</p>
+            <h4>- Emily Johnson</h4>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:himalayanCafe@gmail.com">himalayanCafe@gmail.com</a></p>
+            <p>Call us: <a href="tel:+3580123456789">+3580123456789</a></p>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook-logo.jpeg" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram-logo.png" alt="Instagram"></a>
+                <a href="#"><img src="images/Twitter-logo.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

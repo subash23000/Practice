@@ -67,3 +67,13 @@ li {
     background-color: darkorange;
 
 }
+button a {
+    display: inline-block;
+    background: #ff8800;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
