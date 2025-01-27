@@ -286,10 +286,11 @@ footer .social-icons img {
 }
 
 @media (max-width: 768px) {
+    /* For tablets and smaller screens */
     header {
         flex-direction: column;
         align-items: flex-start;
-        position: static;
+        position: sticky;
         top: -20px;
         z-index: 1000;
     }
@@ -337,6 +338,9 @@ footer .social-icons img {
     header {
         padding: 15px;
         text-align: center;
+        position: sticky;
+        top: -20px;
+        z-index: 1000;
     }
     
     nav ul {
