@@ -291,7 +291,7 @@ footer .social-icons img {
         flex-direction: column;
         align-items: flex-start;
         position: static;
-        top: -20px;
+        top: -40px;
         z-index: 1000;
     }
     
@@ -339,7 +339,7 @@ footer .social-icons img {
         padding: 15px;
         text-align: center;
         position: static;
-        top: -20px;
+        top: -40px;
         z-index: 1000;
     }
     
