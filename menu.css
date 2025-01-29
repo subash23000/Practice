@@ -5,34 +5,7 @@ body{
     background-color: antiquewhite;
 
 }
-.header {
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-/* .header img {
-    width: 80px;
-} */
-.nav {
-    background-color: darkorange;
-    padding: 10px 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.nav a {
-    margin: 15px 15px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-.nav .active {
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
+
 .container {
     width: 80%;
     max-width: 600px;
